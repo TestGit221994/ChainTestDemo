@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Runner" duration-ms="3940" started-at="2023-11-05T06:52:49Z" finished-at="2023-11-05T06:52:53Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Smoke" duration-ms="3940" started-at="2023-11-05T06:52:49Z" finished-at="2023-11-05T06:52:53Z">
+      <class name="com.demo.api.runner.CommonRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="setUpClass" is-config="true" duration-ms="108" started-at="2023-11-05T06:52:49Z" finished-at="2023-11-05T06:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="runScenario" duration-ms="2604" started-at="2023-11-05T06:52:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-05T06:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify demo POST API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify Demo API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="runScenario" duration-ms="574" started-at="2023-11-05T06:52:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-05T06:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify demo PUT API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify Demo API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="runScenario" duration-ms="0" started-at="2023-11-05T06:52:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-05T06:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify demo GET API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify Demo API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="runScenario" duration-ms="585" started-at="2023-11-05T06:52:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-05T06:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify demo DELETE API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify Demo API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demo.api.runner.CommonRunner@7e0e6aa2]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2023-11-05T06:52:53Z" finished-at="2023-11-05T06:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demo.api.runner.CommonRunner -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Smoke Runner -->
+</testng-results>

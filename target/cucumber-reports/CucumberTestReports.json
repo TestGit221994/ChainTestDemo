@@ -1,0 +1,364 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify demo POST API",
+        "description": "",
+        "id": "verify-demo-api;verify-demo-post-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89131600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to create test case \"POST Demo API\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST Demo API\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DemoStepDefinition.iWantToCreateTestCase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1927848700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hit the \"POST\" method of POST USER API with \"/users\" end point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"/users\"",
+                  "offset": 46
+                }
+              ],
+              "location": "DemoStepDefinition.iHitTheMethodOfPOSTUSERAPIWithEndPoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2075400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the status code of POST API is \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 40
+                }
+              ],
+              "location": "DemoStepDefinition.validateTheStatusCodeOfPOSTAPIIs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2587600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate user details in POST API response",
+            "match": {
+              "location": "DemoStepDefinition.validateUserDetailsInPOSTAPIResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify demo GET API",
+        "description": "",
+        "id": "verify-demo-api;verify-demo-get-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 167100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to create test case \"GET Demo API\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET Demo API\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DemoStepDefinition.iWantToCreateTestCase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I hit the \"GET\" method of GET USER API with \"/users/2\" end point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"/users/2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "DemoStepDefinition.iHitTheMethodOfGETUSERAPIWithEndPoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the status code of GET API is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 39
+                }
+              ],
+              "location": "DemoStepDefinition.validateTheStatusCodeOfGETAPIIs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate user details in GET API response",
+            "match": {
+              "location": "DemoStepDefinition.validateUserDetailsInGETAPIResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Demo API",
+    "description": "  Description : Verify CRUD operation",
+    "id": "verify-demo-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/demo1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify demo PUT API",
+        "description": "",
+        "id": "verify-demo-api;verify-demo-put-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to create test case \"PUT Demo API\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT Demo API\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DemoStepDefinition.iWantToCreateTestCase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 467743100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hit the \"PUT\" method of PUT USER API with \"/users/2\" end point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"/users/2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "DemoStepDefinition.iHitTheMethodOfPUTUSERAPIWithEndPoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 28
+                }
+              ],
+              "location": "DemoStepDefinition.validateTheStatusCodeIs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate user details in PUT API response",
+            "match": {
+              "location": "DemoStepDefinition.validateUserDetailsInPUTAPIResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify demo DELETE API",
+        "description": "",
+        "id": "verify-demo-api;verify-demo-delete-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to create test case \"DELETE Demo API\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE Demo API\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DemoStepDefinition.iWantToCreateTestCase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 463881100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I hit the \"DELETE\" method of DELETE USER API with \"/users/2\" end point",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"/users/2\"",
+                  "offset": 50
+                }
+              ],
+              "location": "DemoStepDefinition.iHitTheMethodOfDELETEUSERAPIWithEndPoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the status code is \"204\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"204\"",
+                  "offset": 28
+                }
+              ],
+              "location": "DemoStepDefinition.validateTheStatusCodeIs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate user details in DELETE API response",
+            "match": {
+              "location": "DemoStepDefinition.validateUserDetailsInDELETEAPIResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Demo API",
+    "description": "  Description : Verify CRUD operation",
+    "id": "verify-demo-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/demo2.feature",
+    "tags": []
+  }
+]
